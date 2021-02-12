@@ -39,7 +39,7 @@ function toReveal(){
 	//Ahora aqui cada section es una slide
 	document.write(
 		`<section style="text-align: left;">`,
-		`<h1>Himno ${num_himno}. ${titulo}</h1>`,
+		`<h2>Himno ${num_himno}. ${titulo}</h2>`,
 		`<p>${intro}</p>`,
 		`<p style="text-align: right;">${ref}</p>`,
 		`</section>`
@@ -49,7 +49,7 @@ function toReveal(){
 		document.write(
 			`<section>`,
 			`	<h1 style="font-size:48px;"><a href="#">${num_ver[i]}</a></h1>`,
-			`	<p>${ver[i]}</p>`,
+			`	<p><b>${ver[i]}</b></p>`,
 			`</section>`
 		)
 	}

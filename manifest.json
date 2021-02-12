@@ -1,6 +1,6 @@
 {
-  "name": "Himnario Presbiteriano",
-  "short_name": "HimnarioP",
+  "name": "Himnario Presbiteriano para TV",
+  "short_name": "HimnarioP TV",
   "icons": [{
       "src": "images/icons/icon-192x192.png",
       "sizes": "192x192",
@@ -21,45 +21,7 @@
       "type": "image/png"
     }],
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2",
-
-  "shortcuts": [{
-      "name": "Cuadricula",
-      "description": "Ir al himno por número de himno",
-      "url": "./cuadricula.html",
-      "icons": [{
-          "src": "images/icons/cuadricula-192x192.png",
-          "type": "image/png",
-          "sizes":"192x192"
-        }]
-    },{
-      "name": "Buscar",
-      "description": "Buscar himno por nombre",
-      "url": "./buscar.html",
-      "icons": [{
-          "src": "images/icons/buscar-192x192.png",
-          "type": "image/png",
-          "sizes":"192x192"
-        }]
-    },{
-      "name": "Favoritos",
-      "description": "Ver los himnos marcados como favoritos",
-      "url": "./favoritos.html",
-      "icons": [{
-          "src": "images/icons/favoritos-192x192.png",
-          "type": "image/png",
-          "sizes":"192x192"
-        }]
-    },{
-      "name": "Información",
-      "description": "Configuración, Acerca de y Contacto",
-      "url": "./info.html",
-      "icons": [{
-          "src": "images/icons/info-192x192.png",
-          "type": "image/png",
-          "sizes":"192x192"
-        }]
-    }]
+  "theme_color": "#2F3BA2"
 }
