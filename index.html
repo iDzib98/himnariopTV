@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Ir al himno:</h1>
+        <p>
+            <span class="numberBox" id="centenas">0</span>
+            <span class="numberBox" id="decenas">0</span>
+            <span class="numberBox" id="unidades">0</span>
+        </p>
+        <p>Use las flechas para cambiar el número de himno</p>
+        <p>Presione el botón central del control para ir al himno</p>
+    </main>
+    <script src="js/global.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        body {
+            color: beige;
+            font-size: xx-large;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #191919;
+        }
+        main {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .foco{
+            background-color: aqua !important;
+        }
+        .numberBox{
+            color: black;
+            font-weight: bolder;
+            margin: .5em;
+            padding: .5em;
+            border-radius: .5em;
+            background-color: beige;
+        }
+    </style>
+</body>
+</html>

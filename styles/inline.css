@@ -1,0 +1,10 @@
+body {background-color: black;}
+* {
+    background-color: black;
+}
+header{
+    display: none;
+}
+div{
+    display: none;
+}
